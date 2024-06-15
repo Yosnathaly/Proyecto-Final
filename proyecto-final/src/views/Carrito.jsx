@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Carrito = () => {
+const Cart = () => {
   return (
     <div>
-      <h2>Carrito</h2>
-      <p>Esta es la página del carrito de compras.</p>
+      <h2>Carrito de Compras</h2>
+      <p>Lista de productos en el carrito.</p>
+      <Link to="/login">Iniciar Sesión</Link> o <Link to="/register">Registrarse</Link>
     </div>
   );
 };

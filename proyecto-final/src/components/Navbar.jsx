@@ -11,7 +11,10 @@ const Navbar = () => {
         <nav>
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/carrito">Carrito</Link></li>
+        <li><Link to="/carrito">🛒</Link></li>
+        <li><Link to="/login">Iniciar Sesión</Link></li>
+        <li><Link to="/register">Registrarse</Link></li>
+        <li><Link to="/dashboard">Mi Cuenta</Link></li>
       </ul>
     </nav>
   );
