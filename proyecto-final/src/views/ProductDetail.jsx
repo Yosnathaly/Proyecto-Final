@@ -7,7 +7,7 @@ const ProductDetail = () => {
     <div>
       <h2>Detalles del Producto {id}</h2>
       <p>Aquí van las características del producto.</p>
-      <Link to="/cart">Comprar</Link>
+      <Link to="/carrito">Comprar</Link>
     </div>
   );
 };
