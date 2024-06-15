@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import ProductCard from '../components/ProductCard';
 
 const Home = () => {
   const products = [
@@ -15,12 +16,12 @@ const Home = () => {
           <div key={product.id}>
             <h3>{product.name}</h3>
             <Link to={`/product/${product.id}`}>Ver Detalles</Link>
+            <ProductCard/>
           </div>
         ))}
       </div>
     </div>
   );
 };
-
 
 export default Home;

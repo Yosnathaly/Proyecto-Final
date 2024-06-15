@@ -10,9 +10,10 @@ import { TuArmarioContext } from './context/TuArmarioContext'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
- 
+
   return (
-      <div>
+    <div>
+
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home/>} />
